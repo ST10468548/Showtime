@@ -21,7 +21,7 @@ class MainActivity : ComponentActivity() {
             ShowtimeTheme {
                 Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->
                     Greeting(
-                        name = "Android",
+                        name = "start",
                         modifier = Modifier.padding(innerPadding)
                     )
                 }
