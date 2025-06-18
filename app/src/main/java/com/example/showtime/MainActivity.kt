@@ -33,7 +33,12 @@ class MainActivity : ComponentActivity() {
 @Composable
 fun Greeting(name: String, modifier: Modifier = Modifier) {
     Text(
-        text = "flashcard question screen!",
+        text = "flashcard question screen" +
+                "nelson mandela was president in 1994" +
+                "world war 2 ended in 1942" +
+                "the berlin wall fell in 1989" +
+                "the first man on the moon was in 1969" +
+                "the roman empire fell in 476 AD!",
         modifier = modifier
     )
 }
