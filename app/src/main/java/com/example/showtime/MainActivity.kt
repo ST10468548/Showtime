@@ -38,8 +38,16 @@ fun Greeting(name: String, modifier: Modifier = Modifier) {
                 "world war 2 ended in 1942" +
                 "the berlin wall fell in 1989" +
                 "the first man on the moon was in 1969" +
-                "the roman empire fell in 476 AD!",
-        modifier = modifier
+                "the roman empire fell in 476 AD!" +
+                "second array is the five answers of the 5 questions" +
+                "number 1 = true" +
+                "number 2 = false" +
+                "number 3 = true" +
+                "number 4 = true" +
+                "number 5 = true"
+                +
+        ,
+        modifier =modifier
     )
 }
 
